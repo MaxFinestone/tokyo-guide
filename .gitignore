@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+*.log
+.claude/
+.vscode/
+package.json
+package-lock.json
+sensoji-temple-iStock-1083328636-1024x600.jpg
+ueno-park-cherry-blossom-tokyo-iStock-653287246-smalldaruma-562x421.jpg

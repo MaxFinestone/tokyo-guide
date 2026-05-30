@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cat Cafe Mocha in Shibuya — spend an hour with friendly cats in one of Tokyo's most beloved cat cafés.">
+  <title>Cat Cafe Mocha — Tokyo Tourist</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script>tailwind.config={theme:{extend:{fontFamily:{serif:['"Playfair Display"',"Georgia","serif"],sans:["Inter","system-ui","sans-serif"]}}}}</script>
+  <style>*{box-sizing:border-box;}html,body{overflow-x:hidden;}body{font-family:'Inter',system-ui,sans-serif;background:#fafaf8;color:#111827;-webkit-font-smoothing:antialiased;}.font-serif{font-family:'Playfair Display',Georgia,serif;}.card-hover{transition:transform .25s,box-shadow .25s;}.card-hover:hover{transform:translateY(-3px);box-shadow:0 12px 32px rgba(0,0,0,.1);}.prose p{margin-bottom:1.2rem;line-height:1.8;color:#374151;}.prose h3{font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:700;margin:1.8rem 0 .7rem;color:#111827;}.prose ul{list-style:disc;padding-left:1.4rem;margin-bottom:1.2rem;}.prose ul li{margin-bottom:.4rem;line-height:1.7;color:#4b5563;}.img-zoom img{transition:transform .4s;}.img-zoom:hover img{transform:scale(1.05);}</style>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23bf0000'/><text y='68' x='50' text-anchor='middle' font-size='55' font-family='Georgia,serif' fill='white' font-weight='bold'>T</text></svg>">
+</head>
+<body class="bg-[#fafaf8]">
+  <div class="bg-[#bf0000] text-white text-center py-2 text-[11px] tracking-[0.15em] uppercase font-medium px-4">
+    <span class="hidden sm:inline">✈ &nbsp; A curated travel guide to Tokyo, Japan — October 2023 &nbsp; ✈</span><span class="sm:hidden">✈ Tokyo Tourist Guide — Oct 2023 ✈</span>
+  
+  
+  </div>
+  <header class="bg-white border-b border-gray-200">
+    <div class="max-w-[1160px] mx-auto px-4 sm:px-6 pt-6 pb-4 text-center">
+      <p class="text-[10px] tracking-[0.35em] uppercase text-[#9ca3af] mb-1.5">Tokyo · 東京 · Japan</p>
+      <a href="index.html"><h1 class="font-serif text-[32px] sm:text-[44px] lg:text-[58px] font-black tracking-tight text-[#111827] leading-none">Tokyo Tourist</h1></a>
+      <p class="text-[13px] text-[#9ca3af] tracking-wide mt-2">Your definitive guide to Japan's electric capital</p>
+    </div>
+    <nav class="border-t border-gray-100 mt-2"><div class="max-w-[1160px] mx-auto px-6">
+      <div class="hidden lg:flex items-center justify-between h-10">
+        <div class="flex items-center gap-8">
+          <a href="index.html" class="text-[12px] font-semibold text-[#111827] hover:text-[#bf0000]">Home</a>
+          <a href="attractions.html" class="text-[12px] text-[#6b7280] hover:text-[#bf0000]">Attractions</a>
+          <a href="neighborhoods.html" class="text-[12px] text-[#6b7280] hover:text-[#bf0000]">Neighborhoods</a>
+          <a href="eat-drink.html" class="text-[12px] text-[#6b7280] hover:text-[#bf0000]">Eat &amp; Drink</a>
+          <a href="culture.html" class="text-[12px] text-[#6b7280] hover:text-[#bf0000]">Culture</a>
+          <a href="seasonal.html" class="text-[12px] text-[#6b7280] hover:text-[#bf0000]">Seasonal</a>
+          <a href="map.html" class="text-[12px] text-[#6b7280] hover:text-[#bf0000]">Map</a>
+          <a href="about.html" class="text-[12px] text-[#6b7280] hover:text-[#bf0000]">About</a>
+        </div>
+        <div class="hidden xl:flex items-center gap-2 text-[11px] text-[#9ca3af]">
+          <div class="w-6 h-6 rounded-full bg-[#bf0000] flex items-center justify-center text-white text-[9px] font-bold">MF</div>
+          <span>By Maxence Finestone · Oct 20, 2023</span>
+        </div>
+      </div>
+        <div class="lg:hidden flex items-center justify-between h-11">
+          <div class="flex items-center gap-2">
+            <div class="w-6 h-6 rounded-full bg-[#bf0000] flex items-center justify-center text-white text-[9px] font-bold">MF</div>
+            <span class="text-[12px] font-medium text-[#111827]">Tokyo Tourist</span>
+          </div>
+          <button onclick="document.getElementById('art-menu').classList.toggle('hidden')" class="p-2 rounded-lg hover:bg-gray-100">
+            <svg class="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
+        </div>
+      </div>
+      <div id="art-menu" class="hidden lg:hidden border-t border-gray-100 bg-white">
+        <div class="max-w-[1160px] mx-auto px-4 py-4 flex flex-col gap-3">
+          <a href="index.html" class="text-[13px] font-semibold text-[#111827] hover:text-[#bf0000] py-1">Home</a>
+          <a href="attractions.html" class="text-[13px] text-[#6b7280] hover:text-[#bf0000] py-1">Attractions</a>
+          <a href="neighborhoods.html" class="text-[13px] text-[#6b7280] hover:text-[#bf0000] py-1">Neighborhoods</a>
+          <a href="eat-drink.html" class="text-[13px] text-[#6b7280] hover:text-[#bf0000] py-1">Eat &amp; Drink</a>
+          <a href="culture.html" class="text-[13px] text-[#6b7280] hover:text-[#bf0000] py-1">Culture</a>
+          <a href="seasonal.html" class="text-[13px] text-[#6b7280] hover:text-[#bf0000] py-1">Seasonal</a>
+          <a href="map.html" class="text-[13px] text-[#6b7280] hover:text-[#bf0000] py-1">Map</a>
+        </div>
+      </div>
+    </div></nav>
+  </header>
+<main class="max-w-[1160px] mx-auto px-4 sm:px-6"><div class="relative rounded-2xl overflow-hidden mt-10 mb-8" class="h-[220px] sm:h-[340px] lg:h-[460px]"><img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=1160&h=460&q=85&auto=format&fit=crop" class="w-full h-full object-cover" alt="Cute tabby cat"/><div class="absolute inset-0" style="background:linear-gradient(to top,rgba(0,0,0,.8) 0%,rgba(0,0,0,.2) 55%,transparent 100%);"></div><div class="absolute bottom-0 left-0 p-10 text-white"><span class="inline-block bg-[#bf0000] text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-sm mb-3">Café · Multiple Locations</span><h1 class="font-serif text-[44px] font-bold leading-tight max-w-2xl mb-2">Cat Cafe Mocha</h1><p class="text-white/65 text-[13px]">Shibuya, Harajuku & more &nbsp;·&nbsp; 4 min read &nbsp;·&nbsp; By Maxence Finestone</p></div></div><div class="flex items-center gap-2 text-[12px] text-[#9ca3af] mb-8"><a href="index.html" class="hover:text-[#bf0000]">Home</a><span>›</span><a href="attractions.html" class="hover:text-[#bf0000]">Attractions</a><span>›</span><span class="text-[#111827]">Cat Cafe Mocha</span></div><div class="grid grid-cols-3 gap-12 mb-14"><article class="col-span-2 prose text-[14px]"><p class="text-[17px] text-[#111827] font-medium leading-relaxed mb-6">Spend an hour with friendly, well-cared-for cats at one of Tokyo's most beloved cat cafés &#x2014; a uniquely Japanese institution equal parts adorable and genuinely calming.</p><p>The cat café is a Japanese institution that spread worldwide but reached its apex in Tokyo, where small apartments and strict no-pets rules make owning animals difficult. Cat Cafe Mocha is one of the city's most trusted chains.</p><h3>How It Works</h3><p>You pay an entry fee (~&#xa5;800 for the first hour, &#xa5;200 per additional 10 minutes) including a free drink. Then you step into a room where 10&#x2013;15 cats roam freely. There is no agenda &#x2014; sit, sip your latte, and let the cats come to you.</p><h3>The Cats</h3><p>Mocha's residents include Russian Blues, Scottish Folds, Maine Coons, and domestic cats. Staff maintain strict welfare standards: cats have time-off zones visitors cannot enter, and no interaction is ever forced.</p><ul><li>Reservations strongly recommended for weekends &#x2014; book online.</li><li>Wash hands upon entry.</li><li>Avoid perfume; cats are sensitive to strong scents.</li><li>Move slowly and quietly; let cats approach you.</li></ul><div class="mt-10 pt-8 border-t border-gray-200 flex items-center gap-4"><div class="w-10 h-10 rounded-full bg-[#bf0000] flex items-center justify-center text-white font-bold shrink-0">MF</div><div><p class="text-[13px] font-semibold">Maxence Finestone</p><p class="text-[11px] text-[#9ca3af]">October 20, 2023 · 4 min read</p></div></div></article><aside><div class="bg-[#111827] text-white rounded-2xl p-6 mb-6 sticky top-4"><h3 class="font-serif text-[18px] font-bold mb-4">Quick Info</h3><dl class="space-y-3"><div class="border-b border-white/10 pb-3"><dt class="text-[10px] uppercase tracking-widest text-white/40 mb-0.5">Entry</dt><dd class="text-[13px] font-medium">&#xa5;800 first hour</dd></div><div class="border-b border-white/10 pb-3"><dt class="text-[10px] uppercase tracking-widest text-white/40 mb-0.5">Extra Time</dt><dd class="text-[13px] font-medium">+&#xa5;200 per 10 min</dd></div><div class="border-b border-white/10 pb-3"><dt class="text-[10px] uppercase tracking-widest text-white/40 mb-0.5">Drink</dt><dd class="text-[13px] font-medium">1 included</dd></div><div class="border-b border-white/10 pb-3"><dt class="text-[10px] uppercase tracking-widest text-white/40 mb-0.5">Locations</dt><dd class="text-[13px] font-medium">Shibuya, Harajuku, Ikebukuro & more</dd></div><div class="border-b border-white/10 pb-3"><dt class="text-[10px] uppercase tracking-widest text-white/40 mb-0.5">Booking</dt><dd class="text-[13px] font-medium">Online recommended</dd></div></dl></div><div class="bg-[#bf0000] text-white rounded-2xl p-5"><p class="font-serif text-[16px] italic leading-snug">&#x201C;Prepare to get lost along the way.&#x201D;</p><p class="text-[11px] text-white/70 mt-2">&#x2014; Maxence Finestone</p></div></aside></div><section class="pb-10"><h2 class="font-serif text-[24px] font-bold mb-6">You might also enjoy</h2><div class="grid grid-cols-3 gap-6"><article class="bg-white rounded-2xl overflow-hidden border border-gray-100 card-hover"><div class="overflow-hidden img-zoom" style="height:150px;"><img src="https://images.unsplash.com/photo-1553621042-f6e147245754?w=400&h=150&q=80&auto=format&fit=crop" class="w-full h-full object-cover" alt="Sushi"/></div><div class="p-4"><span class="text-[10px] font-bold uppercase tracking-wider text-[#0369a1]">Sushi · Tsukiji</span><h3 class="font-serif text-[16px] font-bold mt-1.5 mb-1.5">Matsunozushi</h3><p class="text-[11.5px] text-[#6b7280] leading-relaxed mb-3">Michelin-starred sushi near Tsukiji.</p><a href="matsunozushi.html" class="text-[11.5px] font-semibold text-[#0369a1] hover:underline">Read more &#x2192;</a></div></article><article class="bg-white rounded-2xl overflow-hidden border border-gray-100 card-hover"><div class="overflow-hidden img-zoom" style="height:150px;"><img src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=400&h=150&q=80&auto=format&fit=crop" class="w-full h-full object-cover" alt="Shibuya"/></div><div class="p-4"><span class="text-[10px] font-bold uppercase tracking-wider text-[#7c3aed]">Landmark · Shibuya</span><h3 class="font-serif text-[16px] font-bold mt-1.5 mb-1.5">Shibuya Crossing</h3><p class="text-[11.5px] text-[#6b7280] leading-relaxed mb-3">A short walk from most Mocha locations.</p><a href="shibuya-crossing.html" class="text-[11.5px] font-semibold text-[#7c3aed] hover:underline">Read more &#x2192;</a></div></article><article class="bg-white rounded-2xl overflow-hidden border border-gray-100 card-hover"><div class="overflow-hidden img-zoom" style="height:150px;"><img src="https://images.unsplash.com/photo-1624253321171-1be53e12f5f4?w=400&h=150&q=80&auto=format&fit=crop" class="w-full h-full object-cover" alt="Garden"/></div><div class="p-4"><span class="text-[10px] font-bold uppercase tracking-wider text-[#065f46]">Park · Shinjuku</span><h3 class="font-serif text-[16px] font-bold mt-1.5 mb-1.5">Shinjuku Gyoen</h3><p class="text-[11.5px] text-[#6b7280] leading-relaxed mb-3">Calming green space afterwards.</p><a href="shinjuku-gyoen.html" class="text-[11.5px] font-semibold text-[#065f46] hover:underline">Read more &#x2192;</a></div></article></div></section></main>
+  <footer class="bg-[#111827] text-white mt-16">
+    <div class="max-w-[1160px] mx-auto px-4 sm:px-6 py-10 sm:py-14">
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10 mb-10">
+        <div class="col-span-2">
+          <a href="index.html"><h2 class="font-serif text-[36px] font-black mb-2">Tokyo Tourist</h2></a>
+          <p class="text-[13px] text-white/50 max-w-xs mb-5 leading-relaxed">A curated guide to experiencing Japan's capital — written by someone who fell completely in love with the city.</p>
+          <p class="text-[12px] text-white/40">Written by <span class="text-white/70 font-medium">Maxence Finestone</span> · October 20, 2023</p>
+        </div>
+        <div>
+          <h4 class="text-[11px] font-bold uppercase tracking-widest text-white/40 mb-4">Navigate</h4>
+          <ul class="space-y-2">
+            <li><a href="index.html" class="text-[13px] text-white/60 hover:text-white">Home</a></li>
+            <li><a href="attractions.html" class="text-[13px] text-white/60 hover:text-white">Attractions</a></li>
+            <li><a href="neighborhoods.html" class="text-[13px] text-white/60 hover:text-white">Neighborhoods</a></li>
+            <li><a href="eat-drink.html" class="text-[13px] text-white/60 hover:text-white">Eat &amp; Drink</a></li>
+            <li><a href="culture.html" class="text-[13px] text-white/60 hover:text-white">Culture</a></li>
+            <li><a href="seasonal.html" class="text-[13px] text-white/60 hover:text-white">Seasonal</a></li>
+            <li><a href="map.html" class="text-[13px] text-white/60 hover:text-white">Map</a></li>
+            <li><a href="about.html" class="text-[13px] text-white/60 hover:text-white">About</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-[11px] font-bold uppercase tracking-widest text-white/40 mb-4">Articles</h4>
+          <ul class="space-y-2">
+            <li><a href="senso-ji.html" class="text-[13px] text-white/60 hover:text-white">Sensō-ji Temple</a></li>
+            <li><a href="tokyo-skytree.html" class="text-[13px] text-white/60 hover:text-white">Tokyo Skytree</a></li>
+            <li><a href="shibuya-crossing.html" class="text-[13px] text-white/60 hover:text-white">Shibuya Crossing</a></li>
+            <li><a href="shinjuku-gyoen.html" class="text-[13px] text-white/60 hover:text-white">Shinjuku Gyoen</a></li>
+            <li><a href="ueno-park.html" class="text-[13px] text-white/60 hover:text-white">Ueno Park</a></li>
+            <li><a href="tokyo-national-museum.html" class="text-[13px] text-white/60 hover:text-white">Tokyo National Museum</a></li>
+            <li><a href="cat-cafe.html" class="text-[13px] text-white/60 hover:text-white">Cat Cafe Mocha</a></li>
+            <li><a href="matsunozushi.html" class="text-[13px] text-white/60 hover:text-white">Matsunozushi</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-white/10 pt-6 flex items-center justify-between">
+        <p class="text-[11px] text-white/30">&copy; 2023 Tokyo Tourist by Maxence Finestone.</p>
+        <p class="text-[11px] text-white/30">東京 · Japan's Electric Capital</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

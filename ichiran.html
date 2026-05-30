@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ichiran Ramen — Japan's most famous solo-dining ramen experience with private booths and customisable tonkotsu broth.">
+  <title>Ichiran Ramen — Tokyo Tourist</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script>tailwind.config={theme:{extend:{fontFamily:{serif:['"Playfair Display"',"Georgia","serif"],sans:["Inter","system-ui","sans-serif"]}}}}</script>
+  <style>*{box-sizing:border-box;}html,body{overflow-x:hidden;}body{font-family:'Inter',system-ui,sans-serif;background:#fafaf8;color:#111827;-webkit-font-smoothing:antialiased;}.font-serif{font-family:'Playfair Display',Georgia,serif;}.card-hover{transition:transform .25s,box-shadow .25s;}.card-hover:hover{transform:translateY(-3px);box-shadow:0 12px 32px rgba(0,0,0,.1);}.prose p{margin-bottom:1.2rem;line-height:1.8;color:#374151;}.prose h3{font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:700;margin:1.8rem 0 .7rem;color:#111827;}.prose ul{list-style:disc;padding-left:1.4rem;margin-bottom:1.2rem;}.prose ul li{margin-bottom:.4rem;line-height:1.7;color:#4b5563;}</style>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23bf0000'/><text y='68' x='50' text-anchor='middle' font-size='55' font-family='Georgia,serif' fill='white' font-weight='bold'>T</text></svg>">
+</head>
+<body class="bg-[#fafaf8]">
+  <div class="bg-[#bf0000] text-white text-center py-2 text-[11px] tracking-[0.15em] uppercase font-medium px-4">
+    <span class="hidden sm:inline">✈ &nbsp; A curated travel guide to Tokyo, Japan — October 2023 &nbsp; ✈</span><span class="sm:hidden">✈ Tokyo Tourist Guide — Oct 2023 ✈</span>
+  
+  </div>
+  <header class="bg-white border-b border-gray-200">
+    <div class="max-w-[1160px] mx-auto px-4 sm:px-6 pt-6 pb-4 text-center">
+      <p class="text-[10px] tracking-[0.35em] uppercase text-[#9ca3af] mb-1.5">Tokyo · 東京 · Japan</p>
+      <a href="index.html"><h1 class="font-serif text-[32px] sm:text-[44px] lg:text-[58px] font-black tracking-tight text-[#111827] leading-none">Tokyo Tourist</h1></a>
+      <p class="text-[12px] sm:text-[13px] text-[#9ca3af] tracking-wide mt-2">Your definitive guide to Japan's electric capital</p>
+    </div>
+    <nav class="border-t border-gray-100 mt-2">
+      <div class="max-w-[1160px] mx-auto px-4 sm:px-6">
+        <div class="hidden lg:flex items-center justify-between h-10">
+          <div class="flex items-center gap-4 lg:gap-8">
+            <a href="index.html" class="text-[12px] font-semibold text-[#111827] hover:text-[#bf0000]">Home</a>
+            <a href="attractions.html" class="text-[12px] text-[#6b7280] hover:text-[#bf0000]">Attractions</a>
+            <a href="neighborhoods.html" class="text-[12px] text-[#6b7280] hover:text-[#bf0000]">Neighborhoods</a>
+            <a href="eat-drink.html" class="text-[12px] text-[#6b7280] hover:text-[#bf0000]">Eat &amp; Drink</a>
+            <a href="culture.html" class="text-[12px] text-[#6b7280] hover:text-[#bf0000]">Culture</a>
+            <a href="seasonal.html" class="text-[12px] text-[#6b7280] hover:text-[#bf0000]">Seasonal</a>
+            <a href="map.html" class="text-[12px] text-[#6b7280] hover:text-[#bf0000]">Map</a>
+          </div>
+          <div class="hidden xl:flex items-center gap-2 text-[11px] text-[#9ca3af]">
+            <div class="w-6 h-6 rounded-full bg-[#bf0000] flex items-center justify-center text-white text-[9px] font-bold">MF</div>
+            <span>By Maxence Finestone · Oct 20, 2023</span>
+          </div>
+        </div>
+        <div class="lg:hidden flex items-center justify-between h-11">
+          <div class="flex items-center gap-2">
+            <div class="w-6 h-6 rounded-full bg-[#bf0000] flex items-center justify-center text-white text-[9px] font-bold">MF</div>
+            <span class="text-[12px] font-medium text-[#111827]">Tokyo Tourist</span>
+          </div>
+          <button onclick="document.getElementById('mob-menu').classList.toggle('hidden')" class="p-2 rounded-lg hover:bg-gray-100">
+            <svg class="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
+        </div>
+      </div>
+      <div id="mob-menu" class="hidden lg:hidden border-t border-gray-100 bg-white">
+        <div class="max-w-[1160px] mx-auto px-4 py-4 flex flex-col gap-3">
+          <a href="index.html" class="text-[13px] font-semibold text-[#111827] hover:text-[#bf0000] py-1">Home</a>
+          <a href="attractions.html" class="text-[13px] text-[#6b7280] hover:text-[#bf0000] py-1">Attractions</a>
+          <a href="neighborhoods.html" class="text-[13px] text-[#6b7280] hover:text-[#bf0000] py-1">Neighborhoods</a>
+          <a href="eat-drink.html" class="text-[13px] text-[#6b7280] hover:text-[#bf0000] py-1">Eat &amp; Drink</a>
+          <a href="culture.html" class="text-[13px] text-[#6b7280] hover:text-[#bf0000] py-1">Culture</a>
+          <a href="seasonal.html" class="text-[13px] text-[#6b7280] hover:text-[#bf0000] py-1">Seasonal</a>
+          <a href="map.html" class="text-[13px] text-[#6b7280] hover:text-[#bf0000] py-1">Map</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="max-w-[1160px] mx-auto px-4 sm:px-6">
+    <div class="relative rounded-2xl overflow-hidden mt-8 mb-8 h-[200px] sm:h-[320px] lg:h-[420px]">
+      <img src="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=1160&h=420&q=85&auto=format&fit=crop" class="w-full h-full object-cover" alt="Ichiran Ramen"/>
+      <div class="absolute inset-0" style="background:linear-gradient(to top,rgba(0,0,0,.85) 0%,rgba(0,0,0,.2) 55%,transparent 100%);"></div>
+      <div class="absolute bottom-0 left-0 p-6 sm:p-10 text-white">
+        <span class="inline-block bg-[#92400e] text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-sm mb-3">Ramen · Shibuya</span>
+        <h1 class="font-serif text-[26px] sm:text-[38px] lg:text-[44px] font-bold leading-tight max-w-2xl mb-2">Ichiran Ramen</h1>
+        <p class="text-white/65 text-[12px] sm:text-[13px]">Multiple locations &nbsp;·&nbsp; ¥900–1,200 per bowl &nbsp;·&nbsp; By Maxence Finestone</p>
+      </div>
+    </div>
+
+    <div class="flex items-center gap-2 text-[12px] text-[#9ca3af] mb-8">
+      <a href="index.html" class="hover:text-[#bf0000]">Home</a><span>›</span>
+      <a href="eat-drink.html" class="hover:text-[#bf0000]">Eat &amp; Drink</a><span>›</span>
+      <span class="text-[#111827]">Ichiran Ramen</span>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-12 mb-14">
+      <article class="lg:col-span-2 prose text-[14px]">
+        <p class="text-[16px] sm:text-[17px] text-[#111827] font-medium leading-relaxed mb-6">Japan's most famous solo-dining ramen experience — a personal booth, a bamboo curtain, and a bowl of tonkotsu broth dialled to your exact specification.</p>
+        <p>Ichiran is unlike any other ramen restaurant. You enter, purchase your ticket from a vending machine, and are guided to a private wooden booth separated from neighbours by dividers. A short form allows you to customise every element: richness of broth, firmness of noodles, amount of garlic, spice level, and more.</p>
+        <h3>The Experience</h3>
+        <p>Once seated, you slide your order form under the bamboo curtain. It rises briefly to deliver your bowl and then closes again. The entire meal is conducted in near-silence — no distractions, no social obligation, just you and the ramen. It is a uniquely Japanese approach to dining: deeply personal, efficient, and entirely focused on the food.</p>
+        <h3>The Ramen</h3>
+        <p>Ichiran's tonkotsu broth is its signature — milky, rich, and built on a pork bone base. The secret sauce (tare) is Ichiran's most closely guarded recipe. Noodles are thin and springy. The chashu pork melts. You will almost certainly order a second helping (kaedama — replacement noodles for the remaining broth).</p>
+        <ul>
+          <li>Open 24 hours at most locations — perfect for late-night hunger.</li>
+          <li>No reservations required; queue at the door.</li>
+          <li>Shibuya, Shinjuku, Harajuku, Asakusa, and airport locations all available.</li>
+          <li>Vegetarian option available at select branches.</li>
+        </ul>
+        <div class="mt-10 pt-8 border-t border-gray-200 flex items-center gap-4">
+          <div class="w-10 h-10 rounded-full bg-[#bf0000] flex items-center justify-center text-white font-bold shrink-0">MF</div>
+          <div>
+            <p class="text-[13px] font-semibold">Maxence Finestone</p>
+            <p class="text-[11px] text-[#9ca3af]">October 20, 2023</p>
+          </div>
+        </div>
+      </article>
+      <aside>
+        <div class="bg-[#111827] text-white rounded-2xl p-6 mb-6 sticky top-4">
+          <h3 class="font-serif text-[18px] font-bold mb-4">Quick Info</h3>
+          <dl class="space-y-3">
+            <div class="border-b border-white/10 pb-3"><dt class="text-[10px] uppercase tracking-widest text-white/40 mb-0.5">Price</dt><dd class="text-[13px] font-medium">¥900–1,200 per bowl</dd></div>
+            <div class="border-b border-white/10 pb-3"><dt class="text-[10px] uppercase tracking-widest text-white/40 mb-0.5">Style</dt><dd class="text-[13px] font-medium">Tonkotsu solo booths</dd></div>
+            <div class="border-b border-white/10 pb-3"><dt class="text-[10px] uppercase tracking-widest text-white/40 mb-0.5">Hours</dt><dd class="text-[13px] font-medium">24 hours (most locations)</dd></div>
+            <div class="border-b border-white/10 pb-3"><dt class="text-[10px] uppercase tracking-widest text-white/40 mb-0.5">Locations</dt><dd class="text-[13px] font-medium">Shibuya, Shinjuku, Harajuku &amp; more</dd></div>
+            <div><dt class="text-[10px] uppercase tracking-widest text-white/40 mb-0.5">Reservations</dt><dd class="text-[13px] font-medium">Not required</dd></div>
+          </dl>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="bg-[#111827] text-white mt-4">
+    <div class="max-w-[1160px] mx-auto px-4 sm:px-6 py-10 sm:py-14">
+      <div class="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-2">
+        <p class="text-[11px] text-white/30">© 2023 Tokyo Tourist by Maxence Finestone.</p>
+        <p class="text-[11px] text-white/30">東京 · Japan's Electric Capital</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
