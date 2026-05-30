@@ -40,9 +40,11 @@
 <body class="bg-[#fafaf8]">
 
   <!-- ANNOUNCEMENT STRIP -->
-  <div class="bg-[#bf0000] text-white text-center py-2 text-[11px] tracking-[0.15em] uppercase font-medium px-4">
-    <span class="hidden sm:inline">✈ &nbsp; A curated travel guide to Tokyo, Japan — October 2023 &nbsp; ✈</span><span class="sm:hidden">✈ Tokyo Tourist Guide — Oct 2023 ✈</span>
-  
+  <style>@keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}</style>
+  <div class="bg-[#bf0000] text-white text-[11px] tracking-[0.15em] uppercase font-medium overflow-hidden py-2" style="white-space:nowrap;">
+    <div style="display:inline-block;animation:ticker 35s linear infinite;">
+      <span>✈ &nbsp; A curated travel guide to Tokyo, Japan &nbsp; &nbsp; 🗼 &nbsp; Temples &middot; Towers &middot; Neighbourhoods &nbsp; &nbsp; 🍜 &nbsp; Best food in Tokyo &nbsp; &nbsp; 🌸 &nbsp; Cherry blossom season guide &nbsp; &nbsp; 🏯 &nbsp; Culture &amp; etiquette tips &nbsp; &nbsp; 🗺️ &nbsp; Explore all districts &nbsp; &nbsp; ✈ &nbsp; A curated travel guide to Tokyo, Japan &nbsp; &nbsp; 🗼 &nbsp; Temples &middot; Towers &middot; Neighbourhoods &nbsp; &nbsp; 🍜 &nbsp; Best food in Tokyo &nbsp; &nbsp; 🌸 &nbsp; Cherry blossom season guide &nbsp; &nbsp; 🏯 &nbsp; Culture &amp; etiquette tips &nbsp; &nbsp; 🗺️ &nbsp; Explore all districts &nbsp; &nbsp;</span>
+    </div>
   </div>
 
   <!-- MASTHEAD -->
