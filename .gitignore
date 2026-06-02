@@ -7,3 +7,16 @@ package.json
 package-lock.json
 sensoji-temple-iStock-1083328636-1024x600.jpg
 ueno-park-cherry-blossom-tokyo-iStock-653287246-smalldaruma-562x421.jpg
+
+# Secrets & credentials — never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+secrets.json
+credentials.json
+config.secret.*
